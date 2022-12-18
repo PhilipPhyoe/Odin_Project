@@ -1,34 +1,208 @@
-footer {
-    background-color: darkblue;
-    color: white;
-    margin: 0;
-    padding: 20px;
-    border: 0;
+html {
     font-family: Arial, Helvetica, sans-serif;
 }
-.footer-title {
-    font-size: 1rem;
-    padding-left: 2rem;
+h1 {
+    font-size: 80px;
+    font-weight: bold;
 }
-.footer-container {
-    padding: 20px;
+h2 {
+    font-size: 60px;
+    font-weight: 500;
+}
+h3{
+    font-size: 40px;
+    font-weight: 400;
+}
+h5 {
+    font-size: 30px;
+    font-weight: 300;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #003d77;
+    color: #f9faf8;
+    padding: 10px;
+}
+.nav {
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+.hero-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.menu-item {
+    margin: 30px;
+    padding: 30px;
+    font-size: 40px;
+}
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.hero-text {
+    margin-top: 100px;
+    padding: 50px;
+}
+.hero-des {
+    font-size: 30px;
+}
+.hero-secondary {
+    background-color: transparent;
+    color: #f9faf8;
+    font-size: 30px;
+    padding: 30px;
+    border: 5px solid #f9faf8;
+    border-radius: 5px;
+}
+.services{
+    margin: 20px;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.services-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-holder {
+    width: 400px;
+    height: 400px;
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+}
+.services-one .services-two .services-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 100px 50px 100px 50px;
+    margin: 10px;
+}
+.quotes-text {
+    width: 70%;
+    margin: auto;
+}
+.quotes-person {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    margin-right: 0;
+}
+
+.cta {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 30px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.cta-text {
+    flex-grow: 3;
+    margin-left: 50px;
+}
+.secondary-button {
+    background-color: transparent;
+    color: #f9faf8;
+    font-size: 30px;
+    margin-right: 80px;
+    padding: 10px;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
     flex-grow: 1;
+}
+
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 30px;
+}
+.footer-title {
+    padding: 50px;
+}
+.footer-subtitle {
+    font-size: 40px;
+    font-weight: 300;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.subscribe {
+    text-align: left;
+}
+.primary-button {
+    background-color: #00adee;
+    color: #f9faf8;
+    font-size: 30px;
+    padding: 30px;
+    border: 5px solid #f9faf8;
+    border-radius: 5px;
+}
+.address {
+    font-size: 40px;
+    font-weight: 300;
+}
+.recent-posts {
+    font-size: 30px;
+}
+.subscribe, .address, .footer-menu, .recent-posts {
+    width: 400px;
+    margin: 30px;
+    padding: 10px;
 }
 .copyright {
     background-color: white;
     color: black;
     padding: 20px;
-    justify-content: center;
+    text-align: center;
 }
 hr {
     height: 2px;
     width: 30%;
-    margin-left: 0;
     background-color: black;
 }
